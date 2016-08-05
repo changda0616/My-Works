@@ -1,0 +1,389 @@
+body {
+      background-color: #e7e7e7;
+      font-family: "Roboto", sans-serif;
+}
+
+body, h1, h3 {
+              margin: 0;
+              padding: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+li {
+    line-height: 180%;
+}
+
+i {
+   margin: 15px 5px 0px;
+   color: white;
+   -webkit-transition: color 0.5s ease-in-out;
+   transition: color 0.5s ease-in-out;
+}
+
+i:hover {
+         color: #4876ff;
+}
+
+img.portrait {
+              position: absolute;
+              z-index: 4;
+              left: 572px;
+              top: 78px;
+              border-radius: 50px;
+              opacity: 0.9;
+}
+
+
+.header {
+         box-shadow: 0px 1px #e8e8e8;
+         width: 1024px;
+         margin: auto;
+         border: 2px #e8e8e8 solid;
+         border-top: 0;
+}
+
+.intro {
+        background-image: url("ntc.jpg");
+        width: 1024px;
+        height: 576px;
+        margin: auto;
+        text-align: center;
+        z-index: 1;
+}
+
+.filter {
+         position: absolute;
+         background-image: url("filter.jpg");
+         width: 1024px;
+         height: 576px;
+         left: 162.5px;
+         z-index: 2;
+         opacity: 0.8;
+}
+
+.dean {
+       position: absolute;
+       z-index: 3;
+       top: 288px;;
+       left: 494.504px;
+       text-align: center;
+       color: white;
+}
+
+.dean p {
+         font-size: 14px;
+         font-weight: 600;
+}
+
+.about {
+        background-color: #ffffff;
+        width: 512px;
+        height: 302px;
+        display: inline-block;
+        padding: 0 30px 0 30px;
+        box-sizing: border-box;
+}
+
+.about h3 {
+           width: 432px;
+           line-height: 400%;
+           border-bottom: 1px black dashed;
+}
+
+.about p {
+          width: 432px;
+          margin: 16px 0;
+          padding-bottom: 30px;
+          font-size: 14px;          
+}
+
+.basic-inf {
+            background-color: #ffffff;
+            width: 512px;
+            height: 302px;
+            display: inline-block;
+            float: right;
+            padding: 0 30px 0 30px;
+            box-sizing: border-box;
+}
+
+.basic-inf h3 {
+               line-height: 400%;
+               border-bottom: 1px black dashed;
+}
+
+.basic-inf h6 {
+               display: inline-block;
+               margin: 0;
+               margin-right: 30px;
+               width: 150px;
+               font-size: 15px;
+               box-sizing: border-box;
+}                         
+
+.basic-inf ul {
+               margin: 16px 0;
+}
+
+.basic-inf li {
+               font-size: 12px;
+}
+
+.skills {
+         width: 1024px;
+         margin: 30px auto;
+         border: 2px #e8e8e8 solid;
+         box-shadow: 0px 1px #e8e8e8;
+}
+
+.skills-wrapper {
+                 background-color: #ffffff;
+                 width: 512px;
+                 height: 512px;
+                 display: inline-block;
+}
+
+.skills-wrapper h3 {
+                    margin: 30px 0px 30px 30px;
+}
+
+.skills-wrapper p {
+                   font-size: 14px;
+                   font-weight: 700;
+                   margin: 5px 0px 10px 30px;
+}
+
+.skills-bar-overlap {
+             background-color: #dddddd;
+             width: 456px;
+             height: 26px;
+             border-radius: 10px;
+             margin: 5px 0px 20px 30px;
+}
+
+.skills-bar {
+             position: relative;
+             background-color: #4876ff;
+             width: 26px;
+             height: 26px;
+             border-radius: 10px;
+             margin: 5px 0px 20px 0px;
+             -webkit-animation: skillsbar 1s ease-in-out forwards;
+             animation: skillsbar 1s ease-in-out forwards;
+}
+
+.skills-bar-percent {
+                     position: absolute;
+                     background-color: #ffffff;
+                     width: 56px;
+                     height: 56px;
+                     border-radius: 100%;
+                     left: -5px;
+                     top: -16px;
+                     box-shadow: 1px 1px 1px 1px #dddddd;
+                     -webkit-animation: skillspercent 1s ease-in-out forwards;
+                     animation: skillspercent 1s ease-in-out forwards;                 
+}
+
+.skills-bar-percent span {
+                          display: inline-block;
+                          color: #4dbfd9;
+                          font-weight: 700;
+                          font-family: "Roboto", sans-serif;
+                          height: 56px;
+                          line-height: 56px;
+                          width: 56px;
+                          text-align: center;
+}
+
+@-webkit-keyframes skillsbar {
+             0% {width: 26px;}
+             100% {width: 456px;}
+}
+
+@-webkit-keyframes skillspercent {
+             0% {left: -5px;}
+             100% {left: 424px;}
+}
+
+.img-wrapper {
+              background-image: url("lounge.jpg");
+              width: 512px;
+              height: 512px;
+              display: inline-block;
+              float: right;
+}             
+
+.education {
+            position: relative;
+            background-color: #ffffff;
+            width: 1024px;
+            height: 323px;
+            margin: 30px auto;
+            border: 2px #e8e8e8 solid;
+            box-shadow: 0px 1px #e8e8e8;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;            
+}
+
+.education h3 {
+               margin: 30px 0px 0px 30px
+}
+
+.floating {
+           padding-bottom: 45px;
+           -webkit-transition: 0.4s;
+           transition: 0.4s;
+}
+
+.block {
+        position: relative;
+        background-color: #eee;
+        width: 142px;
+        height: 133px;
+        top: 30px;
+        left: 20px;
+        z-index: 9;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+}
+
+
+.block h4 {
+           font-weight: 600;
+           height: 133px;
+           line-height: 133px;
+           margin: 0 auto;
+           text-align: center;
+}
+
+.banner {
+         position: absolute;
+         width: 800px;
+         height: 133px;
+         padding: 0 20px 0 40px;
+         left: 146px;
+         top: 100px;
+         box-shadow: 1px 1px 1px 1px #e7e7e7;
+         z-index: 1;
+         -webkit-transition: 0.4s;
+         transition: 0.4s;
+}
+
+.banner span {
+              color: #4dbfd9;
+              font-size: 14px;
+              -webkit-transition: 0.4s;
+              transition: 0.4s;
+}
+
+.arrow {
+        position: absolute;
+        display: inline-block;
+        width: 0px;
+        height: 0px;
+        border-bottom: 15px solid transparent;
+        border-top: 15px solid transparent;
+        border-left: 15px solid #cccccc;
+        left: 0px;
+        bottom: -1px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+}        
+
+.floating:hover .block {
+                        color: white;
+                        background-color: #4dbfd9;
+                        top: 27px;
+                        box-shadow: 3px 0px 7px 0px rgba(0, 0, 0, 0.05);
+}
+
+.floating:hover .banner {
+                         color: white;
+                         background-color: #4dbfd9; 
+                         top: 97px;
+                         box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.38);
+                         border-width: 0;
+}
+
+.floating:hover .banner span {
+                              color: #cccccc;
+}                                                    
+
+.campus {
+         background-color: #ffffff;
+         width: 1024px;
+         margin: 30px auto;
+         border: 2px #e8e8e8 solid;
+         box-shadow: 0px 1px #e8e8e8;
+}
+
+.campus h3 {
+            margin: 30px;
+}
+
+.activities {
+             width: 900px;
+             height: 170px;
+             border: 1px black solid;
+             margin: 30px 62px;
+}
+
+img.laurel {
+            width: 122px;
+            height: 113px;
+            padding: 10px;
+}
+
+div.laurel {
+            display: inline-block;
+            background-color: #b2b2b2;
+            width: 142px;
+            height: 133px;
+            box-sizing: border-box;
+            margin: 15px;
+}
+
+.activities-content {
+                     display: inline-block;
+                     float: right;
+                     width: 700px;
+                     height: 163px;
+                     margin: 18px 20px 0 0;
+                     box-sizing: border-box;
+}
+
+.activities h4 {
+                margin-top: 0;
+}
+
+.activities p {
+               margin-bottom: 0;
+}
+
+.getintouch {
+             background-color: #ffffff;
+             width: 1024px;
+             margin: 30px auto;
+             border: 2px #e8e8e8 solid;
+             box-shadow: 0px 1px #e8e8e8;
+}
+
+.getintouch h3 {
+                margin: 30px;
+}
+
+.getintouch p {
+               margin: 20px 30px;
+}
