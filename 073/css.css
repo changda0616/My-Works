@@ -1,0 +1,168 @@
+body, h1, h3 {
+              margin: 0;
+              padding: 0;
+}
+
+body {
+      background-color: #9296A2;
+      color: #9296A2;
+}
+
+h1 {
+    font-style: italic;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+h2 {
+    color: #373B46;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    text-align: center;
+    line-height: 20%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p {
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+}
+
+a {
+   color: inherit;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+p:hover, a:hover {
+                  color: white;
+}
+
+nav {
+     margin: 200px 50px 0 0;
+     float: right;
+     font-weight: bold;
+}
+
+ul {
+    text-align: left;
+    margin-left: -22px;
+    display: inline-block;
+}
+
+li {
+
+}
+
+
+.banner {
+         width: 642px;
+         height: 430px;
+         background-image: url("h1_v2.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+}
+
+.header {
+         position: fixed;
+         top: 150px;
+         left: 150px;
+         float: left;
+         font-size: 24px;
+         -webkit-transform: rotate(-90deg);
+}
+
+.container {
+            background-color: #373B46;
+            width: 642px;
+            margin: 0 25%;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+}
+
+.nav {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      margin-top: 40px;
+}
+
+.sidebar {
+          width: 50%;
+          display: inline-block;
+          float: left;
+          margin-top: 27px;
+}
+
+.zengarden {
+            width: 300px;
+            margin: 10px;
+            font-weight: 100;
+}
+
+.enlightment {
+              width: 300px;
+              margin: 10px;
+}
+
+.about {
+        width: 600px;
+        margin: 10px;
+        display: inline-block;
+}
+
+.participation {
+                width: 600px;
+                margin: 10px;
+                display: inline-block;
+}
+
+.benefits {
+           width: 600px;
+           margin: 10px;
+           display: inline-block;
+}
+
+.requirements {
+               width: 600px;
+               margin: 10px 10px 0 10px;
+               display: inline-block;
+}
+
+.design {
+         width: 300px;
+         margin: 10px;
+         text-align: center;
+}
+
+.archives {
+           width: 300px;
+           margin: 10px;
+           text-align: center;
+}
+
+.resources {
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+}
+
+.link {
+       margin-top: -140px;
+       background-image: url("container.jpg");
+       width: 642px;
+       height: 642px;
+}
+
+.p-wrapper {
+            border-left: 1px dotted #9296A2;
+            padding-left: 8px;
+}
